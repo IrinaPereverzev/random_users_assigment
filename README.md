@@ -16,9 +16,8 @@ one of gender tables
 
 #Project Files
 
-The project consists from 2 python files:
+The project consists from the main python file- Irina_main.py , and contains the following classes:
 
-1. Irina_main
 
 - class UsersDataApi: fetches the random users data and stores it as DataFrame
 

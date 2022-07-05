@@ -65,7 +65,7 @@ The project consists from the main python file- Irina_main.py , and contains the
 
 Python
 
-MySql workbanch - To connect to the database, python file named "config" must be created, and store the DB connection information: username, password, host, database
+MySql workbench - To connect to the database, python file named "config" must be created, and store the DB connection information: username, password, host, database
 
 
 

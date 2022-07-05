@@ -66,6 +66,7 @@ The project consists from 2 python files:
 
 Python
 
-MySql workbanch
+MySql workbanch - To connect to the database, python file named "config" must be created, and store the DB connection information: username, password, host, database
+
 
 

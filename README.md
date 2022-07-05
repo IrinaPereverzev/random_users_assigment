@@ -28,37 +28,44 @@ The project consists from 2 python files:
 
 - class DataPrep: Preparing the data from all queries and data manipulation before uplading the wanted information to the DB
 
-     - def male_female_split(): splits the dataset into 2 seperate dataframes- male and female
+         - def male_female_split(): splits the dataset into 2 seperate dataframes- male and female
 
-     -def age_split(): splits the dataset into 10 seperate dataframes- based on the age group
+         -def age_split(): splits the dataset into 10 seperate dataframes- based on the age group
 
-     -def top_20(): finds the top 20 users from each gender table stored in the database, using Sql query
+         -def top_20(): finds the top 20 users from each gender table stored in the database, using Sql query
 
-     -def combine_20_5(): combining data from 2 tables in the database, top 20 users and age group 5, using Sql query
+         -def combine_20_5(): combining data from 2 tables in the database, top 20 users and age group 5, using Sql query
 
-     -def combine_20_2():  combining data from 2 tables in the database, top 20 users and age group 2, using Sql query
+         -def combine_20_2():  combining data from 2 tables in the database, top 20 users and age group 2, using Sql query
 
 
 - class DbUploadData: Uploading the data that was created in the DataPrep class to the MySql database.
 
-     -def upload_table_male_female(): Uploading 2 tables, male and female
-     -def upload_age_tables(): Uploading 10 tables, devided by age group
-     -def upload_top_20(): Uploading the top 20 last registered males and females
+         -def upload_table_male_female(): Uploading 2 tables, male and female
+
+         -def upload_age_tables(): Uploading 10 tables, devided by age group
+
+         -def upload_top_20(): Uploading the top 20 last registered males and females
+     
 
         
         
          
 - class CreateJsonFiles: Creates json files, stored in output_json_data folder
 
-    -def create_first_json():  New dataset created that combines data from top 20 users table and age group 5 table
-    -def create_second_json():  New dataset created that combines data from top 20 users table and age group 2 table
+         -def create_first_json():  New dataset created that combines data from top 20 users table and age group 5 table
+
+         -def create_second_json():  New dataset created that combines data from top 20 users table and age group 2 table
     
+
+
 
 
 
 #Built With
 
 Python
+
 MySql workbanch
 
 
